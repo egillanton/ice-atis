@@ -1,4 +1,4 @@
-# The ICE-ATIS dataset (Version 0.1)
+# The ICE-ATIS dataset (Version 0.2)
 
 The Icelandic translation of the ATIS (Airline Travel Information System) dataset.
 
