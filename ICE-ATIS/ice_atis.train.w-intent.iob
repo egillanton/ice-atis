@@ -679,7 +679,7 @@ BOS vinsamlegast teldu upp öll flugfélag sem fljúga á milli denver og boston
 BOS ég hef áhuga á flugi frá cincinnati til burbank flugin skulu vera með american og fljúga síðdegis ég þarf að vita flugvéla- og flugnúmer EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-airline_name O O B-depart_time.period_of_day O O O O O O O O	atis_flight
 BOS flug frá oakland til san francisco EOS	O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS birtu lista af flugi frá boston til san francisco sem bjóða eingöngu morgunmat EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O B-meal_description O	atis_flight
-BOS  hversu mörg flugfélög eru með flug með sem bjóða upp á farrýmisflokk yn EOS	O O O O O O O O O O O O O B-fare_basis_code O	atis_quantity
+BOS hversu mörg flugfélög eru með flug með sem bjóða upp á farrýmisflokk yn EOS	O O O O O O O O O O O O O B-fare_basis_code O	atis_quantity
 BOS getur þú vinsamlegast látið mig fá fargjald aðra leið frá pittsburgh til atlanta EOS	O O O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
 BOS allt í lagi ég værii til í að fljúga frá denver til pittsburgh EOS	O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég vil flugferð frá montreal til san diego á sunnudag EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name O	atis_flight
@@ -1708,7 +1708,7 @@ BOS sýnduu mér kvöldflug frá philadelphia til baltimore EOS	O O O B-depart_t
 BOS hvað kostar að fljúga beint frá philadelphia til san francisco með american airlines EOS	O O O O O B-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-airline_name I-airline_name O	atis_airfare
 BOS vinsamlegast birtu lista af flugáætlunum frá newark til boston EOS	O O O O O B-flight_time O B-fromloc.city_name O B-toloc.city_name O	atis_flight_time
 BOS hvaða flug er delta með á milli boston og san francisco EOS	O O O O B-airline_name O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS láttu mig fá flug frá san francisco til washington dc fyrir fyrsta desember  EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_number B-depart_date.month_name O	atis_flight
+BOS láttu mig fá flug frá san francisco til washington dc fyrir fyrsta desember EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_number B-depart_date.month_name O	atis_flight
 BOS mig langar upplýsingar um flug sem fara frá atlanta og koma til dallas EOS	O O O O O O O O O B-fromloc.city_name O O O B-toloc.city_name O	atis_flight
 BOS vinsamlegast sýnduu mér flug frá washington dc til san francisco california EOS	O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name I-toloc.city_name B-toloc.state_name O	atis_flight
 BOS hvaða flug er frá seattle til salt lake city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight

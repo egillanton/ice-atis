@@ -42,7 +42,7 @@ BOS eru einhverjar flugferðir frá boston til orlando sem millilenda í columbu
 BOS er kvöldmatur í boði í þessu flugi EOS	O O B-meal_description O O O O O O	atis_flight
 BOS mig vantar flug frá charlotte til miami EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS mig vantar beint flug frá miami til toronto EOS	O O O B-flight_stop O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS ég þarf á beinu flugi að halda frá toronto til st. louis  EOS	O O O O B-flight_stop O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS ég þarf á beinu flugi að halda frá toronto til st. louis EOS	O O O O B-flight_stop O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS mig vantar flugferð frá toronto til st. louis EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS mig vantar flugferð frá st. louis til charlotte EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS mig vantar flug með united airlines frá la guardia til san jose EOS	O O O O O B-airline_name I-airline_name O B-fromloc.airport_name I-fromloc.airport_name O B-toloc.city_name I-toloc.city_name O	atis_flight
