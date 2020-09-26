@@ -48,7 +48,7 @@ The Original data set can be obtained from  [Kaggle](https://www.kaggle.com/sidd
 
 
 ATIS dataset:
-```
+```console
 $ wc  ./ATIS/*
 893   21900  153924 ATIS/atis.test.w-intent.iob
 4978  132312  900059 ATIS/atis.train.w-intent.iob
@@ -69,7 +69,7 @@ BOS i would like to find a flight from charlotte to las vegas that makes a stop 
 ```
 
 ICE-ATIS dataset:
-```
+```console
 $ wc ./ICE-ATIS/ice_atis.train.w-intent.iob ICE-ATIS/ice_atis.test.w-intent.iob
 4978  136516  954071 ICE-ATIS/ice_atis.train.w-intent.iob
 893   23339  166491 ICE-ATIS/ice_atis.test.w-intent.iob
@@ -85,7 +85,7 @@ Nr. of unseen words in test set: 127
 ```
 
 Sample:
-```
+```console
 $ head -1  ICE-ATIS/ice_atis.test.w-intent.iob
 BOS ég væri til í að finna flug frá charlotte til las vegas sem stoppar í st. louis EOS O O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O B-stoploc.city_name I-stoploc.city_name O     atis_flight
 ```
