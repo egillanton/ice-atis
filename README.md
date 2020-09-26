@@ -49,12 +49,19 @@ The Original data set can be obtained from  [Kaggle](https://www.kaggle.com/sidd
 
 ATIS dataset:
 ```
-$ wc  ATIS/*
+$ wc  ./ATIS/*
 893   21900  153924 ATIS/atis.test.w-intent.iob
 4978  132312  900059 ATIS/atis.train.w-intent.iob
 5871  154212 1053983 total
 ```
 
+```console
+$ python ./ATIS/script.py
+ATIS
+Vocabsize for train_data: 897
+Vocabsize for test_data: 450
+Nr. of unseen words in test set: 52
+```
 Sample:
 ```
 $ head -1 ATIS/atis.test.w-intent.iob 
@@ -63,12 +70,19 @@ BOS i would like to find a flight from charlotte to las vegas that makes a stop 
 
 ICE-ATIS dataset:
 ```
-$ wc ICE-ATIS/ice_atis.train.w-intent.iob ICE-ATIS/ice_atis.test.w-intent.iob
+$ wc ./ICE-ATIS/ice_atis.train.w-intent.iob ICE-ATIS/ice_atis.test.w-intent.iob
 4978  136516  954071 ICE-ATIS/ice_atis.train.w-intent.iob
 893   23339  166491 ICE-ATIS/ice_atis.test.w-intent.iob
 5871  159855 1120562 total
 ```
 
+```console
+$ python ./ICE-ATIS/script.py
+ICE-ATIS
+Vocabsize for train_data: 1380
+Vocabsize for test_data: 640
+Nr. of unseen words in test set: 127
+```
 
 Sample:
 ```
