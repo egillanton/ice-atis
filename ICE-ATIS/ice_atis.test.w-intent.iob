@@ -1,12 +1,12 @@
-BOS ég værii til í að finna flug frá charlotte til las vegas sem stopar í st. louis EOS	O O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
+BOS ég væri til í að finna flug frá charlotte til las vegas sem stopar í st. louis EOS	O O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
 BOS ég þarf miða þann fyrsta apríl frá tacoma til san jose sem leggur af stað fyrir klukkan 7 um morguninn EOS	O O O O O B-depart_date.day_number B-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_airfare
 BOS fyrsta apríl þarf ég flug sem fer frá phoenix til san diego EOS	O B-depart_date.day_number B-depart_date.month_name O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS ég værii til í flug aðra leiðina frá phoenix til san diego fyrsta apríl EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
-BOS ég værii til í flug frá orlando til salt lake city fyrsta apríl með delta airlines EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-depart_date.day_number B-depart_date.month_name O B-airline_name I-airline_name O	atis_flight
+BOS ég væri til í flug aðra leiðina frá phoenix til san diego fyrsta apríl EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
+BOS ég væri til í flug frá orlando til salt lake city fyrsta apríl með delta airlines EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-depart_date.day_number B-depart_date.month_name O B-airline_name I-airline_name O	atis_flight
 BOS ég þarf á flugi að halda frá toronto til newark aðra leiðina sem fer út á miðvikudagskvöldið eða fimmtudagsmorguninn EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O O O O B-depart_time.period_of_day O B-depart_time.period_of_day O	atis_flight
-BOS ég værii til í að fljúga mánudagsmorgunninn frá columbus til indianapolis EOS	O O O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS miðvikudaginn sjötta apríl værii ég til í að fljúga frá long beach til columbus seinni partinn eftir klukkan 3 EOS	O B-depart_date.day_name B-depart_date.day_number B-depart_date.month_name O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.time_relative B-depart_time.time I-depart_time.time O	atis_flight
-BOS eftir klukkan 12 á miðvikudaginn sjötta apríl værii ég til í að fljúga frá long beach til columbus EOS	O B-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_date.day_name B-depart_date.day_number B-depart_date.month_name O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS ég væri til í að fljúga mánudagsmorgunninn frá columbus til indianapolis EOS	O O O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS miðvikudaginn sjötta apríl væri ég til í að fljúga frá long beach til columbus seinni partinn eftir klukkan 3 EOS	O B-depart_date.day_name B-depart_date.day_number B-depart_date.month_name O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.time_relative B-depart_time.time I-depart_time.time O	atis_flight
+BOS eftir klukkan 12 á miðvikudaginn sjötta apríl væri ég til í að fljúga frá long beach til columbus EOS	O B-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_date.day_name B-depart_date.day_number B-depart_date.month_name O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS eru einhver flug frá long beach til columbus á miðvikudaginn sjötta apríl EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
 BOS finndu fyrir mig flug frá memphis til tacoma með máltíð um borð EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-meal_description O O O	atis_flight
 BOS næsta miðvikudag ætti flug frá kansas city til chicago að koma til chicago um 7 um kvöldið og flýgur til baka á fimmtudaginn EOS	O B-depart_date.date_relative B-depart_date.day_name O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O B-toloc.city_name B-arrive_time.time_relative B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O O O O O B-return_date.day_name O	atis_flight
@@ -14,13 +14,13 @@ BOS birtu flug og verð kansas city til chicago næsta miðvikudag sem koma til 
 BOS flug með american frá miami til chicago koma í chicago um 5 seinni partinn EOS	O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name O O B-toloc.city_name B-arrive_time.time_relative B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS finndu flug sem fer til new york næsta laugardag EOS	O O O O O O B-toloc.city_name I-toloc.city_name B-arrive_date.date_relative B-arrive_date.day_name O	atis_flight
 BOS finndu beint flug frá salt lake city til new york á laugardaginn níunda apríl EOS	O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
-BOS sýnduu mér flug fyrir daginn í dag frá burbank til milwaukee EOS	O O O O O B-depart_date.today_relative I-depart_date.today_relative I-depart_date.today_relative O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ferðir fyrir annað kvöld frá milwaukee til st. louis EOS	O O O O O B-depart_date.today_relative B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér ferðir á laugardagskvöldinu frá st. louis í burbank EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir á mánudaginn frá burbank til st. louis EOS	O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir á mánudaginn frá burbank til milwaukee EOS	O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir á þriðjudagskvöldið frá milwaukee til st. louis EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir á miðvikudagskvöld frá st. louis til burbank EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug fyrir daginn í dag frá burbank til milwaukee EOS	O O O O O B-depart_date.today_relative I-depart_date.today_relative I-depart_date.today_relative O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ferðir fyrir annað kvöld frá milwaukee til st. louis EOS	O O O O O B-depart_date.today_relative B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér ferðir á laugardagskvöldinu frá st. louis í burbank EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á mánudaginn frá burbank til st. louis EOS	O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á mánudaginn frá burbank til milwaukee EOS	O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á þriðjudagskvöldið frá milwaukee til st. louis EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á miðvikudagskvöld frá st. louis til burbank EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flugferðir fara frá kansas city til los angeles EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvaða flugferðir fljúga frá las vegas til los angeles EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvaða flugferðir fara frá kansas city til los angeles níunda apríl EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
@@ -58,7 +58,7 @@ BOS hvaða flugferðir fara frá newark eftir hádegi næsta laugardag og fara t
 BOS hvaða flug fara frá detroit fljúga til st. petersburg um 9 um morgunninn EOS	O O O O O B-fromloc.city_name O O B-toloc.city_name I-toloc.city_name B-arrive_time.time_relative B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS hvaða flugferðir með flugfélaginu northweast fara frá detroit og fljúga til st. petersburg EOS	O O O O B-airline_name I-airline_name O O B-fromloc.city_name O O O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvaða flug fara frá chicago næsta þriðjudag og koma til detroit um 6 leytið um kvöldið EOS	O O O O O B-fromloc.city_name B-depart_date.date_relative B-depart_date.day_name O O O B-toloc.city_name B-arrive_time.time_relative B-arrive_time.time O B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
-BOS sýnduu mér flugferðir báðar leiðir frá chicago til detroit sem fara út næsta þriðjudag og koma aftur degininum eftir EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O O B-depart_date.date_relative B-depart_date.day_name O O O B-return_date.date_relative I-return_date.date_relative O	atis_flight
+BOS sýndu mér flugferðir báðar leiðir frá chicago til detroit sem fara út næsta þriðjudag og koma aftur degininum eftir EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O O B-depart_date.date_relative B-depart_date.day_name O O O B-return_date.date_relative I-return_date.date_relative O	atis_flight
 BOS hvaða flugferðir báðar leiðir fljúga frá chicago næsta þriðjudag um 6 leytið um kvöldið og fljúga til detroit EOS	O O O B-round_trip I-round_trip O O B-fromloc.city_name B-depart_date.date_relative B-depart_date.day_name B-depart_time.time_relative B-depart_time.time O B-arrive_time.period_of_day I-arrive_time.period_of_day O O O B-toloc.city_name O	atis_flight
 BOS hvaða flugferðir báðar leiðir fara frá chicago næsta þriðjudag og fara til detroit um 6 leytið um kvöldið EOS	O O O B-round_trip I-round_trip O O B-fromloc.city_name B-depart_date.date_relative B-depart_date.day_name O O O B-toloc.city_name B-toloc.city_name B-arrive_time.time O B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS hvaða flugferðir fljúga út á mánudeginum frá montreal og fara til chicago um morgunninn EOS	O O O O O O B-depart_date.day_name O B-fromloc.city_name O O O B-toloc.city_name B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
@@ -71,8 +71,8 @@ BOS mig langar til að fara til baka frá chicago um 7 um kvöldið til kansas c
 BOS mig langar til að fara seinni partinn með american frá cincinnati til burbank EOS	O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-airline_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS á sunnudagskvöldið langar mig að fara frá montreal quebec með flugi til san diego í california EOS	O O B-depart_time.period_of_day O O O O O B-fromloc.city_name B-fromloc.state_name O O O B-toloc.city_name I-toloc.city_name O B-toloc.state_name O	atis_flight
 BOS hvaða flugferðir eru á sunnudaginn frá montreal quebec til san diego california EOS	O O O O O B-depart_date.day_name O B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name I-toloc.city_name B-toloc.state_name O	atis_flight
-BOS á þriðjudaginn eru flug frá san diego california til indianapolis indiana ég værii til að flugið værii síðdegi EOS	O O B-depart_date.day_name O O O B-fromloc.city_name I-fromloc.city_name B-fromloc.state_name O B-toloc.city_name B-toloc.state_name O O O O O O B-depart_time.period_of_day O	atis_flight
-BOS á fimmtudagsmorgun værii ég til í beint flug frá indianapolis til toronto EOS	O O B-depart_time.period_of_day O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS á þriðjudaginn eru flug frá san diego california til indianapolis indiana ég væri til að flugið væri síðdegi EOS	O O B-depart_date.day_name O O O B-fromloc.city_name I-fromloc.city_name B-fromloc.state_name O B-toloc.city_name B-toloc.state_name O O O O O O B-depart_time.period_of_day O	atis_flight
+BOS á fimmtudagsmorgun væri ég til í beint flug frá indianapolis til toronto EOS	O O B-depart_time.period_of_day O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS á föstudagsmorgun vil ég fljúga frá toronto til montreal EOS	O O B-depart_time.period_of_day O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS mig langar í flug snemma morguns í dag frá los angeles til charlotte EOS	O O O O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.today_relative I-depart_date.today_relative O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS á miðvikudagskvöld vil ég fljúga frá charlotte til newark EOS	O O B-depart_time.period_of_day O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
@@ -84,7 +84,7 @@ BOS vinsamlegast finndu flug frá detroit michigan til st. petersburg kemur þan
 BOS vinsamlegast finndu flug frá st. petersburg til miami á fimmtudaginn EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
 BOS vinsamlegast finna flug frá san diego til toronto með flugfélaginu alaska EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name O	atis_flight
 BOS vinsamlegast finndu flug frá columbus til houston sem millilendir í nashville á morgun EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O I-flight_stop O B-stoploc.city_name B-depart_date.today_relative I-depart_date.today_relative O	atis_flight
-BOS vinsamlegast sýnduu mér flugferðir frá nashville sem fljúga beint til houston með kvöldmat um borð EOS	O O O O O O B-fromloc.city_name O B-flight_stop I-flight_stop O B-toloc.city_name O B-meal_description O O O	atis_flight
+BOS vinsamlegast sýndu mér flugferðir frá nashville sem fljúga beint til houston með kvöldmat um borð EOS	O O O O O O B-fromloc.city_name O B-flight_stop I-flight_stop O B-toloc.city_name O B-meal_description O O O	atis_flight
 BOS vinsamlegast finndu flugferðir í boði frá kansas city til newark EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS vinsamlegast finndu flug sem fer frá kansas city til newark til orlando og kemur til baka til kansas city EOS	O O O O O O O B-toloc.city_name I-toloc.city_name O B-toloc.city_name O B-toloc.city_name O O O O O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS vinsamlegast finndu flug frá kansas city til newark EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
@@ -109,26 +109,26 @@ BOS hvað er fyrsta flugið milli baltimore og oakland sem er með morgunverð e
 BOS til hvaða borga frá boston er america west að fljúga til með fyrsta farrými EOS	O O O O O B-fromloc.city_name O B-airline_name I-airline_name O O O O B-class_type I-class_type O	atis_city
 BOS hvaða flugfélög fljúga frá boston til san diego EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_airline
 BOS hvað er nýjasta flugið frá dallas til tampa sem býður upp á morgunmat EOS	O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name O O O O B-meal_description O	atis_flight
-BOS sýnduu mér öll flug með lufthansa frá seattle til boston sem millilenda í minneapolis EOS	O O O O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name O O O B-stoploc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá seattle til boston sem millilenda í minneapolis EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-stoploc.city_name O	atis_flight
+BOS sýndu mér öll flug með lufthansa frá seattle til boston sem millilenda í minneapolis EOS	O O O O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name O O O B-stoploc.city_name O	atis_flight
+BOS sýndu mér öll flug frá seattle til boston sem millilenda í minneapolis EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-stoploc.city_name O	atis_flight
 BOS birtu mér lista af flug frá philadelphia til san francisco með viðkomu í dallas EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O B-stoploc.city_name O	atis_flight
-BOS sýnduu mér tengiflug á milli boston og denver og tegundir loftfara sem eru notaðar EOS	O O O B-connect O O B-fromloc.city_name O B-toloc.city_name O O O O O O O	atis_flight
-BOS sýnduu mér öll morgunflug frá philadelphia til fort worth EOS	O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá kansas city til st. paul EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flug með northwest flugnúmer 608 frá kansas city til st. paul EOS	O O O O O B-airline_name O B-flight_number O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá indianapolis til charlotte á mánudaginn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
+BOS sýndu mér tengiflug á milli boston og denver og tegundir loftfara sem eru notaðar EOS	O O O B-connect O O B-fromloc.city_name O B-toloc.city_name O O O O O O O	atis_flight
+BOS sýndu mér öll morgunflug frá philadelphia til fort worth EOS	O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá kansas city til st. paul EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flug með northwest flugnúmer 608 frá kansas city til st. paul EOS	O O O O O B-airline_name O B-flight_number O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá indianapolis til charlotte á mánudaginn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
 BOS hvaða samgöngur eru á milli flugvellinum í charlotte charlotte flugvelli og miðbænum í charlotte EOS	O O O O O O B-airport_name I-airport_name I-airport_name B-airport_name I-airport_name O O O B-city_name O	atis_ground_service
-BOS sýnduu mér öll flug frá charlotte til minneapolis sem fara klukkan 2 eftir hádegi eða seinna á mánudaginn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-depart_time.time B-depart_time.period_mod B-depart_time.period_of_day O B-depart_time.time_relative O B-depart_date.day_name O	atis_flight
-BOS sýnduu mér öll flug frá charlotte til minneapolis á þriðjudagsmorgun EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér bein flug frá charlotte til minneapolis á þriðjudagsmorgun EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight
-BOS vinsamlegast sýnduu mér flug með us 1500 á mánudaginn frá charlotte til minneapolis EOS	O O O O O O B-airline_code B-flight_number O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá minneapolis til indianapolis á fimmtudaginn sem fljúga eftir klukkan 2 eftir hádegi EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér flugferðinar frá minneapolis til indiana EOS	O O O O O B-fromloc.city_name O B-toloc.state_name O	atis_flight
-BOS sýnduu mér flugferðinar frá minneapolis til indianapolis á þriðjudaginn eftir hádegi EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér flug us 1207 frá indianapolis til charlotte á mánudaginn og flug us 1500 frá charlotte til minneapolis á mánudaginn og flug twa 639 frá minneapolis til indianapolis EOS	O O O O B-airline_code B-flight_number O B-toloc.city_name O B-fromloc.city_name O B-depart_date.day_name O O B-airline_code B-flight_number O B-fromloc.city_name O B-fromloc.city_name O B-depart_date.day_name O O B-airline_code B-flight_number O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá las vegas til new york EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá charlotte til minneapolis sem fara klukkan 2 eftir hádegi eða seinna á mánudaginn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-depart_time.time B-depart_time.period_mod B-depart_time.period_of_day O B-depart_time.time_relative O B-depart_date.day_name O	atis_flight
+BOS sýndu mér öll flug frá charlotte til minneapolis á þriðjudagsmorgun EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight
+BOS sýndu mér bein flug frá charlotte til minneapolis á þriðjudagsmorgun EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight
+BOS vinsamlegast sýndu mér flug með us 1500 á mánudaginn frá charlotte til minneapolis EOS	O O O O O O B-airline_code B-flight_number O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá minneapolis til indianapolis á fimmtudaginn sem fljúga eftir klukkan 2 eftir hádegi EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér flugferðinar frá minneapolis til indiana EOS	O O O O O B-fromloc.city_name O B-toloc.state_name O	atis_flight
+BOS sýndu mér flugferðinar frá minneapolis til indianapolis á þriðjudaginn eftir hádegi EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér flug us 1207 frá indianapolis til charlotte á mánudaginn og flug us 1500 frá charlotte til minneapolis á mánudaginn og flug twa 639 frá minneapolis til indianapolis EOS	O O O O B-airline_code B-flight_number O B-toloc.city_name O B-fromloc.city_name O B-depart_date.day_name O O B-airline_code B-flight_number O B-fromloc.city_name O B-fromloc.city_name O B-depart_date.day_name O O B-airline_code B-flight_number O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá las vegas til new york EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvaða mismunandi flugfélög fljúga frá las vegas til new york borgar EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_airline
-BOS sýnduu mér öll flug með america west og twa frá las vegas til jfk á föstudögum EOS	O O O O O O B-airline_name I-airline_name O B-airline_code O B-fromloc.city_name I-fromloc.city_name O B-toloc.airport_code O B-depart_date.day_name O	atis_flight
+BOS sýndu mér öll flug með america west og twa frá las vegas til jfk á föstudögum EOS	O O O O O O B-airline_name I-airline_name O B-airline_code O B-fromloc.city_name I-fromloc.city_name O B-toloc.airport_code O B-depart_date.day_name O	atis_flight
 BOS hvaða flug fljúga frá tacoma til miami sem fara eftir klukkan 6 um kvöldið á morgunn EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.today_relative I-depart_date.today_relative O	atis_flight
 BOS mig langar til að fljúga frá san diego til houston tíunda júní EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
 BOS er til flug með american airlines frá houston til newark tíunda júní eftir klukkan 6 um kvöldið EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_number B-depart_date.month_name O B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
@@ -164,19 +164,19 @@ BOS listi af flugferðum hjá canadian airlines international EOS	O O O O O B-ai
 BOS hversu margar flugferðir já canadian airlines international nota j31 EOS	O O O O O B-airline_name I-airline_name I-airline_name O B-aircraft_code O	atis_quantity
 BOS hvað margar flugferðir hjá canadian airlines international nota loftfar 320 EOS	O O O O O B-airline_name I-airline_name I-airline_name O O B-aircraft_code O	atis_quantity
 BOS hversu margar flugferðir hjá canadian airlines nota dh8 flugvélar EOS	O O O O O B-airline_name I-airline_name O B-aircraft_code O O	atis_quantity
-BOS sýnduu mér flugferðir hjá american airlines sem fljúga frá st. petersburg til ontario í kanada með viðkomu í st. louis EOS	O O O O O B-airline_name I-airline_name O O O B-stoploc.city_name I-fromloc.city_name O B-toloc.city_name O B-toloc.country_name O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
+BOS sýndu mér flugferðir hjá american airlines sem fljúga frá st. petersburg til ontario í kanada með viðkomu í st. louis EOS	O O O O O B-airline_name I-airline_name O O O B-stoploc.city_name I-fromloc.city_name O B-toloc.city_name O B-toloc.country_name O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
 BOS birtu mér flugferðir hjá american airlines sem fara frá st. petersburg til ontario í california sem eiga leið í gegnum st. louis EOS	O O O O O B-airline_name I-airline_name O O O B-stoploc.city_name I-fromloc.city_name O B-toloc.city_name O B-toloc.state_name O O O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
 BOS hvaða flugvöllur er næstur ontario í california EOS	O O O O B-mod B-city_name O B-state_name O	atis_airport
-BOS sýnduu mér lista af flugferðum frá houston til orlando EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir frá orlando til houston EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir frá detroit til las vegas EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér ódýrasta flug báðar leiðir almennt farrými frá las vegas til detroit EOS	O O O O O B-round_trip I-round_trip B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare
-BOS sýnduu mér ódýrustu flugferð báðar leiðir almennt farrými frá las vegas til detroit EOS	O O O B-cost_relative O B-round_trip I-round_trip B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare
+BOS sýndu mér lista af flugferðum frá houston til orlando EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir frá orlando til houston EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir frá detroit til las vegas EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrasta flug báðar leiðir almennt farrými frá las vegas til detroit EOS	O O O O O B-round_trip I-round_trip B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare
+BOS sýndu mér ódýrustu flugferð báðar leiðir almennt farrými frá las vegas til detroit EOS	O O O B-cost_relative O B-round_trip I-round_trip B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare
 BOS birtu mér flugferðir með delta sem bjóða upp á veitingar til farþega á almennu farrými EOS	O O O O O B-airline_name O O O O B-meal_description O O O B-class_type I-class_type O	atis_flight
 BOS hvað er máltíð merkt sb EOS	O O O O O B-meal_code O	atis_abbreviation
 BOS hvaða máltíðir eru í boði um borð á dl 468 sem lendir í san francisco klukkan 930 um morguninn EOS	O O O O O O O O O B-airline_code B-flight_number O O O B-toloc.city_name I-toloc.city_name O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_meal
-BOS sýnduu mér flug hjá delta frá tampa til san francisco EOS	O O O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flugið delta 486 EOS	O O O O B-airline_name B-flight_number O	atis_flight
+BOS sýndu mér flug hjá delta frá tampa til san francisco EOS	O O O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugið delta 486 EOS	O O O O B-airline_name B-flight_number O	atis_flight
 BOS birtu lista af flugferðum hjá tower air á mánudögum EOS	O O O O O O B-airline_name I-airline_name O B-day_name O	atis_flight
 BOS birtu lista af öllum flugferðum hjá tower air sem eru með máltíðir EOS	O O O O O O O B-airline_name I-airline_name O O O B-meal O	atis_flight
 BOS hvaða flug fara frá frá baltimore EOS	O O O O O O B-fromloc.city_name O	atis_flight
@@ -205,13 +205,13 @@ BOS birtu lista af öllum flugferðum hjá us air sem koma til charlotte á laug
 BOS hvaða vél er með fyrsta farými báðar leiðir frá india indianapolis til memphis EOS	O O O O O B-class_type I-class_type B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
 BOS birtu öll flug frá memphis til miami EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu mér lista af öllum flugferðum og fargjöld frá indianapolis til memphis á mánudagsmorgnum EOS	O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight#atis_airfare
-BOS sýnduu mér lista af öllu flugi og verð frá memphis til miami á miðvikudagskvöldum EOS	O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight#atis_airfare
-BOS sýnduu mér öll flug of verð fyrir öll flug á milli miami og indianapolis EOS	O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight#atis_airfare
-BOS sýnduu mér allar flugferðir frá cleveland til kansas city á mánudaginn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér lista af öllum ferðum frá kansas city til cleveland EOS	O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér lista af öllum flugferðum frá cleveland til nashville EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér lista af öllum flugferðum frá nashville til cleveland á sunnudaginn EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
-BOS sýnduu mér lista af öllum sunnudagsferðum frá cleveland til nashville og fargjöld þeirra EOS	O O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O	atis_flight#atis_airfare
+BOS sýndu mér lista af öllu flugi og verð frá memphis til miami á miðvikudagskvöldum EOS	O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight#atis_airfare
+BOS sýndu mér öll flug of verð fyrir öll flug á milli miami og indianapolis EOS	O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight#atis_airfare
+BOS sýndu mér allar flugferðir frá cleveland til kansas city á mánudaginn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.period_of_day O	atis_flight
+BOS sýndu mér lista af öllum ferðum frá kansas city til cleveland EOS	O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér lista af öllum flugferðum frá cleveland til nashville EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér lista af öllum flugferðum frá nashville til cleveland á sunnudaginn EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
+BOS sýndu mér lista af öllum sunnudagsferðum frá cleveland til nashville og fargjöld þeirra EOS	O O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O	atis_flight#atis_airfare
 BOS hvaða flugfélög fljúga frá baltimore EOS	O O O O O B-fromloc.city_name O	atis_airline
 BOS hvaða flugfélög fljúga frá baltimore til san francisco EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_airline
 BOS hversu lengi tekur það að fljúga frá baltimore til san francisco EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_distance
@@ -219,22 +219,22 @@ BOS hvaða flug fara frá kansas city til atlanta snemma mánudagsmorgun EOS	O O
 BOS hvaða flugferðir fara frá atlanta og koma til st. louis í kringum 230 síðdegis á þriðjudaginn EOS	O O O O O B-fromloc.city_name O O O B-toloc.city_name I-toloc.city_name B-arrive_time.time_relative I-arrive_time.time_relative B-arrive_time.time B-arrive_time.period_of_day O B-arrive_date.day_name O	atis_flight
 BOS vinsamlegast birtu lista af flugferðum frá st. louis til st. paul sem fer eftir klukkan 10 á fimmtudagsmorguninn EOS	O O O O O O O B-toloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_time.period_of_day O	atis_flight
 BOS birtu lista af flugferðum frá st. paul til kansas city föstudaginn um kvöldið með máltíð innifalið EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O B-meal O O	atis_flight
-BOS sýnduu mér lista af flugferðum snemma morguns frá cincinnati til tampa EOS	O O O O O O B-depart_time.period_of_day B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér lista af flugferðum snemma morguns frá cincinnati til tampa EOS	O O O O O O B-depart_time.period_of_day B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af ferðum snemma kvölds frá tampa til cincinnati EOS	O O O O O B-depart_time.period_of_day B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af kvöldferðum frá tampa til cincinnati EOS	O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af flugferðum frá philadelphia til atlanta föstudaginn um morguninn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS birtu lista af flugferðum frá atlanta til toronto föstudaginn eftir hádegi EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS birtu lista af flugferðum frá toronto til washington dc laugardaginn um morguninn EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér lista af flugferðum frá washington dc til philadelphia laugardaga eftir hádegi EOS	O O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér lista af flugferðum frá washington dc til philadelphia laugardaga eftir hádegi EOS	O O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS teldu upp bein flug frá new york til los angeles eftir 10 um morguninn EOS	O O O B-connect O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.time B-depart_time.period_mod I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér flugmiða hjá american airlines flug 19 frá jfk til lax EOS	O O O O O B-airline_name I-airline_name O B-flight_number O B-fromloc.airport_code O B-toloc.airport_code O	atis_airfare#atis_flight
+BOS sýndu mér flugmiða hjá american airlines flug 19 frá jfk til lax EOS	O O O O O B-airline_name I-airline_name O B-flight_number O B-fromloc.airport_code O B-toloc.airport_code O	atis_airfare#atis_flight
 BOS hvað er flugnúmer m EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS birtu mér fjarlægðina í kílómetrum frá flugvellinum í boston niður í miðbæ boston EOS	O O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O O O B-city_name O	atis_distance
-BOS sýnduu mér fjarlægðina í kílómetrum frá la guardia flugvellinum í new york niður í miðbæ new york borgar EOS	O O O O O O O B-fromloc.airport_name I-fromloc.airport_name O O B-city_name I-city_name O O O B-city_name I-city_name I-city_name O	atis_distance
+BOS sýndu mér fjarlægðina í kílómetrum frá la guardia flugvellinum í new york niður í miðbæ new york borgar EOS	O O O O O O O B-fromloc.airport_name I-fromloc.airport_name O O B-city_name I-city_name O O O B-city_name I-city_name I-city_name O	atis_distance
 BOS birtu fjarlægðina í kílómetrum frá alþjóðaflugvellinum í toronto niður í miðbæ toronto EOS	O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O O O B-city_name O	atis_distance
-BOS sýndui mér fjarlægðina í kílómetrum frá alþjóðaflugvellinum í san francisco í miðbæ san francisco EOS	O O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O O B-toloc.city_name I-toloc.city_name O	atis_distance
-BOS sýnduu mér verðið fyrir limousine í boston EOS	O O O O O B-transport_type O I-city_name O	atis_ground_fare
-BOS sýnduu mig flugferðir hjá american airlines frá houston til milwaukee sem fara föstudaginn síðdegis EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name B-depart_time.period_of_day O	atis_flight
+BOS sýndu mér fjarlægðina í kílómetrum frá alþjóðaflugvellinum í san francisco í miðbæ san francisco EOS	O O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O O B-toloc.city_name I-toloc.city_name O	atis_distance
+BOS sýndu mér verðið fyrir limousine í boston EOS	O O O O O B-transport_type O I-city_name O	atis_ground_fare
+BOS sýndu mig flugferðir hjá american airlines frá houston til milwaukee sem fara föstudaginn síðdegis EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name B-depart_time.period_of_day O	atis_flight
 BOS listi af flugferðum frá houston til milwaukee föstudaga síðdegis EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day O	atis_flight
 BOS birtu ferðir hjá american airlines frá milwaukee til san jose á miðvikudögum EOS	O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name O	atis_flight
 BOS birtu flugferðir með american airlines frá san jose til dallas föstudags eftirmiðdag EOS	O O O O B-airline_name I-airline_name O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day O	atis_flight
@@ -248,7 +248,7 @@ BOS listi af daglegum flugferðum frá boston til pittsburgh EOS	O O O B-flight_
 BOS birtu lista af daglegum flugferðum frá pittsburgh til newark EOS	O O O O B-flight_days O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af daglegum ferðum frá newark til boston EOS	O O O O B-flight_days O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af listi af flugferðum með us air sem fljúga laugardaginn frá charlotte airport klukkan 1 eftir hádegi EOS	O O O O O O O O B-airline_name I-airline_name O O B-depart_date.day_name O B-fromloc.airport_name I-fromloc.airport_name B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér lista af flugferðum með us air sem fara út laugardaginn frá flugvellinum í charlotte í kringum klukkan 1 síðdegis EOS	O O O O O O O B-airline_name I-airline_name O O O B-depart_date.day_name O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_time.period_of_day O	atis_flight
+BOS sýndu mér lista af flugferðum með us air sem fara út laugardaginn frá flugvellinum í charlotte í kringum klukkan 1 síðdegis EOS	O O O O O O O B-airline_name I-airline_name O O O B-depart_date.day_name O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_time.period_of_day O	atis_flight
 BOS birtu lista af fyrsta flokks flugfargjöld báðar leiðir frá indianapolis til memphis EOS	O O O O B-class_type I-class_type O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
 BOS hvað er flugfarnúmer f EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS birtu lista af flugferðum frá memphis til miami miðvikudagskvöldið EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.period_of_day O	atis_flight
@@ -283,7 +283,7 @@ BOS mig langar í flug frá ontario til tacoma EOS	O O O O O O B-fromloc.city_na
 BOS mig langar í flug frá minneapolis til san diego EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS mig langar í flug frá salt lake city til cincinnati EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég myndi vilja sjá flug frá cincinnati til salt lake city EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
-BOS ég værii til í flug frá new york til miami EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS ég væri til í flug frá new york til miami EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS mig langar í flug frá miami til new york EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS ég myndi vilja flug sem fer frá san francisco til san diego EOS	O O O O O O O O B-toloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS mig langar í flug frá san diego til las vegas EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -297,28 +297,28 @@ BOS ég myndi vilja flug frá toronto til st. louis EOS	O O O O O O B-fromloc.ci
 BOS mig langar í flug frá san francisco til long beach EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS mig langar í flug sem fer frá san francisco til san diego EOS	O O O O O O O O B-toloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS ég myndi vilja flug frá san francisco til st. petersburg EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér bein flug frá milwaukee til orlando sem yfirgefa miðvikudaginn eftir 6 um kvöldið EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name B-depart_time.time_relative B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér bein flug frá milwaukee til orlando á miðvikudaginn EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
-BOS sýnduu mér fyrsta flokks flug frá columbus til chicago sem fara fyrir klukkan 10 um morguninn EOS	O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative O B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér ódýrustu ferð báðar leiðir á milli st. petersburg og detroit sem lendir fyrir klukkan 7 um kvöldið EOS	O O O B-cost_relative O B-round_trip I-round_trip O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-arrive_time.time_relative O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
-BOS sýnduu mér bein flug frá kansas city til phoenix EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér bein flug frá milwaukee til orlando sem yfirgefa miðvikudaginn eftir 6 um kvöldið EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name B-depart_time.time_relative B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér bein flug frá milwaukee til orlando á miðvikudaginn EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
+BOS sýndu mér fyrsta flokks flug frá columbus til chicago sem fara fyrir klukkan 10 um morguninn EOS	O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative O B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér ódýrustu ferð báðar leiðir á milli st. petersburg og detroit sem lendir fyrir klukkan 7 um kvöldið EOS	O O O B-cost_relative O B-round_trip I-round_trip O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-arrive_time.time_relative O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
+BOS sýndu mér bein flug frá kansas city til phoenix EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flugfélag wn EOS	O O O B-airline_code O	atis_airline
-BOS sýnduu mér ódýrustu fyrsta flokks ferð báðar leiðir frá new york til miami EOS	O O O B-cost_relative B-class_type I-class_type O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS nú sýnduu mér allar ferðir báðar leiðir frá new york til miami EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ódýrasta flugið aðra leið frá san francisco til houston EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS nú sýnduu mér ódýrasta flugið aðra leið frá houston til boston EOS	O O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ódýrasta verðið flug báðar leiðir frá houston til boston EOS	O O O B-cost_relative O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
-BOS sýnduu mér ódýrasta verðið á flugi báðar leiðir frá san francisco til houston EOS	O O O B-cost_relative O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare
-BOS sýnduu mér ódýrustu flugferðina báðar leiðir frá san francisco til houston tuttugasta og áttunda febrúar 1994 EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name B-depart_date.year O	atis_airfare
-BOS sýnduu mér ódýrustu ferðina aðra leið frá san francisco til houston tuttugasta og áttunda febrúar 1994 EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name B-depart_date.year O	atis_airfare
-BOS sýnduu mér núna samgöngur í houston á mánudaginn síðdegis EOS	O O O O O O B-city_name O B-day_name B-period_of_day O	atis_ground_service
-BOS sýnduu mér núna flug aðra leiðina frá houston til boston EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS nú sýnduu mér samgöngur sem ég gæti fengið í boston seint um nótt EOS	O O O O O O O O O O B-city_name B-period_of_day B-period_of_day B-period_of_day O	atis_ground_service
-BOS sýnduu mér flugfélög sem eru með flugferðir milli toronto og detroit og á milli detroit og st. louis og milli st. louis og toronto EOS	O O O O O O O O O B-toloc.city_name O B-fromloc.city_name O O O B-fromloc.city_name O B-fromloc.city_name I-fromloc.city_name O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airline
-BOS sýnduu mér fargjöld fyir flugferðir báðar leiðir frá toronto til detroit með northwest us air og united airlines EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O B-airline_name B-airline_name I-airline_name O B-airline_name I-airline_name O	atis_airfare
-BOS sýnduu mér flugferðir á milli detroit og st. louis með delta northwest us air og united airlines EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-airline_name B-airline_name B-airline_name I-airline_name O B-airline_name I-airline_name O	atis_flight
-BOS sýnduu mér flugferðir frá montreal til orlando og long beach EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu fyrir mig flug frá montreal til orlando EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrustu fyrsta flokks ferð báðar leiðir frá new york til miami EOS	O O O B-cost_relative B-class_type I-class_type O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS nú sýndu mér allar ferðir báðar leiðir frá new york til miami EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrasta flugið aðra leið frá san francisco til houston EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS nú sýndu mér ódýrasta flugið aðra leið frá houston til boston EOS	O O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrasta verðið flug báðar leiðir frá houston til boston EOS	O O O B-cost_relative O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
+BOS sýndu mér ódýrasta verðið á flugi báðar leiðir frá san francisco til houston EOS	O O O B-cost_relative O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare
+BOS sýndu mér ódýrustu flugferðina báðar leiðir frá san francisco til houston tuttugasta og áttunda febrúar 1994 EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name B-depart_date.year O	atis_airfare
+BOS sýndu mér ódýrustu ferðina aðra leið frá san francisco til houston tuttugasta og áttunda febrúar 1994 EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name B-depart_date.year O	atis_airfare
+BOS sýndu mér núna samgöngur í houston á mánudaginn síðdegis EOS	O O O O O O B-city_name O B-day_name B-period_of_day O	atis_ground_service
+BOS sýndu mér núna flug aðra leiðina frá houston til boston EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS nú sýndu mér samgöngur sem ég gæti fengið í boston seint um nótt EOS	O O O O O O O O O O B-city_name B-period_of_day B-period_of_day B-period_of_day O	atis_ground_service
+BOS sýndu mér flugfélög sem eru með flugferðir milli toronto og detroit og á milli detroit og st. louis og milli st. louis og toronto EOS	O O O O O O O O O B-toloc.city_name O B-fromloc.city_name O O O B-fromloc.city_name O B-fromloc.city_name I-fromloc.city_name O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airline
+BOS sýndu mér fargjöld fyir flugferðir báðar leiðir frá toronto til detroit með northwest us air og united airlines EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O B-airline_name B-airline_name I-airline_name O B-airline_name I-airline_name O	atis_airfare
+BOS sýndu mér flugferðir á milli detroit og st. louis með delta northwest us air og united airlines EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-airline_name B-airline_name B-airline_name I-airline_name O B-airline_name I-airline_name O	atis_flight
+BOS sýndu mér flugferðir frá montreal til orlando og long beach EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu fyrir mig flug frá montreal til orlando EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég þarf á flugi að halda á föstudaginn síðdegis í júní frá new york til cleveland EOS	O O O O O O O O B-depart_date.day_name B-depart_time.period_of_day O B-depart_date.month_name O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég þarf á flugi að halda frá new york til los angeles á laugardaginn síðdegis með us air EOS	O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name B-depart_time.period_of_day O B-airline_name I-airline_name O	atis_flight
 BOS ég vil fá flug með red eye frá new york til los angeles á laugardagskvöld með us air EOS	O O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.period_of_day O B-airline_name I-airline_name O	atis_flight
@@ -328,7 +328,7 @@ BOS hvað þýðir ua EOS	O O O B-airline_code O	atis_abbreviation
 BOS ég þarf flug frá milwaukee til washington dc á mánudagskvöld EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_time.period_of_day O	atis_flight
 BOS hvað með flug frá milwaukee til washington dc á þriðjudagsmorgnum EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_time.period_of_day O	atis_flight
 BOS hvað máltíðir eru á flugi 382 frá milwaukee til washington dc á þriðjudagsmorgun EOS	O O B-meal O O O B-flight_number O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_time.period_of_day O	atis_meal
-BOS ég þarf að leigja bíl í washington dc EOS	O O O O O B-transport_type O B-city_name B-state_code O	atis_ground_service
+BOS ég þarf að leiga bíl í washington dc EOS	O O O O O B-transport_type O B-city_name B-state_code O	atis_ground_service
 BOS get ég fengið flug á þriðjudagskvöld frá washington dc til oakland EOS	O O O O O O B-depart_time.period_of_day O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O	atis_flight
 BOS hvað með frá dc ti oakland á miðvikudagsmorgun EOS	O O O O B-fromloc.state_code O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight
 BOS hversu mikið kostar að fljúga með twa frá columbus til milwaukee EOS	O O O O O O O B-airline_code O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
@@ -349,22 +349,22 @@ BOS get ég fengið flug í dag frá san francisco til detroit michigan EOS	O O 
 BOS hvað er ódýrasta flugið frá san francisco til detroit í dag EOS	O O O I-today_relative O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.today_relative I-depart_date.today_relative O	atis_flight
 BOS ég vil fljúga frá san francisco til milwaukee og frá milwaukee til denver EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-fromloc.city_name O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvað er ódýrasta flugið frá san francisco til milwaukee EOS	O O O B-cost_relative O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS ég þarf að leigja bíl í milwaukee EOS	O O O O O B-transport_type O B-city_name O	atis_ground_service
+BOS ég þarf að leiga bíl í milwaukee EOS	O O O O O B-transport_type O B-city_name O	atis_ground_service
 BOS hvað er ódýrasta flugið á morgun frá milwaukee til denver EOS	O O O B-cost_relative O B-depart_date.today_relative I-depart_date.today_relative O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvað akstur er í boði í denver EOS	O O O O O O O B-city_name O	atis_ground_service
 BOS hvað er ódýrasta flugið frá san francisco til denver EOS	O O O B-cost_relative O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flug fara frá cleveland og fara til dallas EOS	O O O O O B-fromloc.city_name O O O B-toloc.city_name O	atis_flight
-BOS sýnduu mér öll bein flug frá st. petersburg til charlotte EOS	O O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér öll bein flug frá st. petersburg til charlotte EOS	O O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flugfélag er us EOS	O O O O B-airline_code O	atis_airline
-BOS sýnduu mér flugferðir á milli toronto og san diego EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á milli toronto og san diego EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvað er phl EOS	O O O B-airport_code O	atis_abbreviation
 BOS hvað er mci EOS	O O O B-airport_code O	atis_abbreviation
-BOS sýnduu mér flugferðir á milli oakland og salt lake city EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á milli oakland og salt lake city EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvað merkir not sa EOS	O O O B-mod B-days_code O	atis_abbreviation
 BOS hvað er fyrsta daglega flugferðin á milli oakland og salt lake city EOS	O O O B-flight_mod B-flight_days O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvaða flugfélagið er dl EOS	O O O O B-airline_code O	atis_airline
 BOS hvað er nýjasta daglega flugferðin á milli oakland og salt lake city EOS	O O O B-flight_mod B-flight_days O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flug milli los angeles og dallas EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug milli los angeles og dallas EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða akstur er í boði frá flugvellinum í dallas fort worth í miðbæinn í dallas EOS	O O O O O O O B-arrive_date.day_number I-airport_name I-airport_name I-airport_name I-airport_name O O O B-city_name O	atis_ground_service
 BOS hversu marga farþega getur l1011 flugvél tekið EOS	O O O O O B-aircraft_code O O O	atis_capacity
 BOS hvað er sætaframboðið á dc9 EOS	O O O O O B-aircraft_code O	atis_capacity
@@ -373,15 +373,15 @@ BOS hvað akstur er í boði á milli flugvellinum í phoenix og miðbæ phoenix
 BOS hvað er sætaframboðið umboð í vél m80 EOS	O O O O O O O B-aircraft_code O	atis_capacity
 BOS eru einhver flug á milli dallas og phoenix sem nota dc10 flugvélar EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-aircraft_code O O	atis_flight
 BOS hvaða flugfélag er aa EOS	O O O O B-airline_code O	atis_airline
-BOS sýnduu mér flug milli milwaukee og indiana EOS	O O O O O B-fromloc.city_name O B-toloc.state_name O	atis_flight
+BOS sýndu mér flug milli milwaukee og indiana EOS	O O O O O B-fromloc.city_name O B-toloc.state_name O	atis_flight
 BOS hvaða flug eru á milli milwaukee og pittsburgh EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða akstur er í boði á milli flugvellinum í pittsburgh og miðbænum í pittsburgh EOS	O O O O O O O O B-airport_name I-airport_name I-airport_name O O O B-city_name O	atis_ground_service
-BOS sýnduu mér flug á milli pittsburgh og washington dc EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O	atis_flight
+BOS sýndu mér flug á milli pittsburgh og washington dc EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O	atis_flight
 BOS hvaða akstur er í boði á milli dca og miðbæ washington EOS	O O O O O O O O B-airport_code O O B-city_name O	atis_ground_service
 BOS hvaða flug eru á milli dca og milwaukee EOS	O O O O O O B-airport_code O B-city_name O	atis_flight
 BOS hvaða akstur er í boði á milli flugvellinum í milwaukee og miðbæ milwaukee EOS	O O O O O O O O B-airport_name I-airport_name I-airport_name O O B-city_name O	atis_ground_service
 BOS hvaða tegund loftfars er notað í flugi frá cleveland til dallas sem fer fyrir hádegi EOS	O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative B-depart_time.period_of_day O	atis_aircraft
-BOS finndu flug á milli st. petersburg og charlotte flugið ætti að fara í eftirmiðdaginn og koma sem fyrst eftir 5 og helst að það værii beint flug EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O B-depart_time.period_of_day O O O O B-arrive_time.time_relative B-arrive_time.time O O O O O B-flight_stop I-flight_stop O	atis_flight
+BOS finndu flug á milli st. petersburg og charlotte flugið ætti að fara í eftirmiðdaginn og koma sem fyrst eftir 5 og helst að það væri beint flug EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O B-depart_time.period_of_day O O O O B-arrive_time.time_relative B-arrive_time.time O O O O O B-flight_stop I-flight_stop O	atis_flight
 BOS birtu lista af flugferðum með delta airlines frá toronto til san diego EOS	O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS lista af flugferðum með american airlines frá toronto til san diego EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS lista af flugi frá toronto til san diego EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -393,7 +393,7 @@ BOS listi af flugi frá milwaukee til washington dc fyrir 1200 EOS	O O O O O B-f
 BOS birtu lista af flugferðum frá washington dc til pittsburgh sem fer eftir 1800 EOS	O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O B-depart_time.time_relative B-depart_time.time O	atis_flight
 BOS birtu lista af flugi frá washington dc til pittsburgh EOS	O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O	atis_flight
 BOS birtu lista af flugi á milli pittsburgh og milwaukee EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS ég værii til í flug til san diego frá washington dc EOS	O O O O O O O B-toloc.city_name I-toloc.city_name O B-fromloc.city_name B-fromloc.state_code O	atis_flight
+BOS ég væri til í flug til san diego frá washington dc EOS	O O O O O O O B-toloc.city_name I-toloc.city_name O B-fromloc.city_name B-fromloc.state_code O	atis_flight
 BOS mig langar til að fljúga frá cleveland til dallas EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég vil fljúga frá washington dc til phoenix arizona EOS	O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-toloc.state_name O	atis_flight
 BOS ég þarf á flugi að halda frá phoenix til atlanta EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
@@ -421,19 +421,19 @@ BOS vinsamlegast birtu lista af flugferðum frá orlando til philadelphia EOS	O 
 BOS vinsamlegast birtu lista af flugi frá san francisco til charlotte EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS vinsamlegast birtu lista af flugi frá milwaukee til philadelphia EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS vinsamlegast birtu lista af flugi frá philadelphia til san francisco EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS vinsamlegast sýnduu mér samgöngur til milwaukee EOS	O O O O O O B-city_name O	atis_ground_service
+BOS vinsamlegast sýndu mér samgöngur til milwaukee EOS	O O O O O O B-city_name O	atis_ground_service
 BOS vinsamlegast birtu mér lista af flugi frá san francisco til milwaukee EOS	O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af flugi frá houston til denver EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af flugferðum frá houston til phoenix EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS listi af flugi frá phoenix til houston EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS listi af flugi frá newark til houston EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ferðir frá denver til houston EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu flug frá st. petersburg til charlotte EOS	O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ferðir frá orlando til kansas city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir frá kansas city til minneapolis EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir frá kansas city til orlando EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ferðir frá minneapolis til kansas city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu flugferðir frá kansas city til orlando EOS	O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ferðir frá denver til houston EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu flug frá st. petersburg til charlotte EOS	O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ferðir frá orlando til kansas city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir frá kansas city til minneapolis EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir frá kansas city til orlando EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ferðir frá minneapolis til kansas city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu flugferðir frá kansas city til orlando EOS	O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS birtu lista af flugi frá washington dc til boston EOS	O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O	atis_flight
 BOS listi af fargjöldum frá washington dc til montreal EOS	O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O	atis_airfare
 BOS listi af ferðum frá washington dc til montreal EOS	O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O	atis_flight
@@ -519,7 +519,7 @@ BOS ég þarf flug frá memphis til seattle EOS	O O O O O B-fromloc.city_name O 
 BOS ég þarf miða frá nashville til seattle EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
 BOS ég þarf miða frá nashville tennessee til seattle EOS	O O O O O B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name O	atis_airfare
 BOS ég þarf upplýsingar um flug frá milwaukee til tampa EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS ég þarf að leigja bíl á tampa EOS	O O O O O B-transport_type O B-city_name O	atis_ground_service
+BOS ég þarf að leiga bíl á tampa EOS	O O O O O B-transport_type O B-city_name O	atis_ground_service
 BOS ég þarf daglegt flug frá st. louis til milwaukee EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég þarf á flug sem fer frá oakland og kemur til salt lake city EOS	O O O O O O O O B-fromloc.city_name O O O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
 BOS ég þarf upplýsingar um flug frá toronto til san diego EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -529,38 +529,38 @@ BOS ég þarf upplýsingar um flug á milli st. petersburg og charlotte EOS	O O 
 BOS ég þarf að flugnúmer á flug sem fer frá cleveland og kemur til dallas EOS	O O O O O O O O O O B-fromloc.city_name O O O B-toloc.city_name O	atis_flight_no
 BOS hvaða flugferð fer frá new york til miami og til baka EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O	atis_flight
 BOS hvað merkir farnúmerið qo EOS	O O O O B-fare_basis_code O	atis_abbreviation
-BOS sýnduu mér flug frá milwaukee til orlando aðra leið EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
+BOS sýndu mér flug frá milwaukee til orlando aðra leið EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
 BOS hvað stendur skammstöfunin us fyrir EOS	O O O O B-airline_code O O	atis_abbreviation
 BOS ég vil fá miða aðra leið frá milwaukee til orlando annaðhvort miðvikudagskvöld eða fimmtudagsmorgun EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day O B-depart_time.period_of_day O	atis_airfare
-BOS sýnduu mér flugferðir frá milwaukee til orlando EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir frá milwaukee til orlando EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvað þýðir kóðinn f EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvað merkir kóðinn h EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvað er meint með kóðanum y EOS	O O O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvað eru takmarkanir ap 57 EOS	O O O O B-restriction_code I-restriction_code O	atis_abbreviation
-BOS vinsamlegast sýnduu mér fyrsta flokks flug frá indianapolis til memphis aðra leiðina sem fer fyrir klukkan 10 um morguninn EOS	O O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O O B-depart_time.time_relative O B-depart_time.time B-arrive_time.period_of_day I-depart_time.period_of_day O	atis_flight
-BOS sýnduu mér núna allar ferðir báðar leiðir frá burbank til seattle sem koma til seattle fyrir klukkan 7 um kvöldið EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O O B-toloc.city_name O O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
+BOS vinsamlegast sýndu mér fyrsta flokks flug frá indianapolis til memphis aðra leiðina sem fer fyrir klukkan 10 um morguninn EOS	O O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O O B-depart_time.time_relative O B-depart_time.time B-arrive_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér núna allar ferðir báðar leiðir frá burbank til seattle sem koma til seattle fyrir klukkan 7 um kvöldið EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O O B-toloc.city_name O O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS vinsamlegast ferðir báðar leiðir frá orlando til montreal EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flugfélag er dl EOS	O O O O B-airline_code O	atis_airline
-BOS sýnduu mér allar delta airlines ferðir frá montreal til orlando EOS	O O O O B-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS vinsamlegast sýnduu mér öll flug frá orlando til montreal EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér allar delta airlines ferðir frá montreal til orlando EOS	O O O O B-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS vinsamlegast sýndu mér öll flug frá orlando til montreal EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flugfélag er kw EOS	O O O O B-airline_code O	atis_airline
 BOS vinsamlegast teldu upp öll flug frá new york til miami hvaða hvaða tegund sem er EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O O	atis_flight
 BOS hvað merkir fargjaldskóðinn bh EOS	O O O O B-fare_basis_code O	atis_abbreviation
-BOS vinsamlegast sýnduu mér flug til baka frá miami til jfk EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.airport_code O	atis_flight
+BOS vinsamlegast sýndu mér flug til baka frá miami til jfk EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.airport_code O	atis_flight
 BOS hvað þýðir fargjaldskóðinn bh EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvað merkir kóðinn bh EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvað merkir fargjaldkóði bh EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvað merkir fargjaldkóði bh EOS	O O O O B-fare_basis_code O	atis_abbreviation
-BOS sýnduu mér flug aðra leiðina frá milwaukee til orlando eftir 6 um kvöldið á miðvikudaginn EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O B-depart_date.day_name O	atis_flight
-BOS sýnduu mér flugferðir frá indianapolis til memphis EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flug báðar leiðir frá burbank til seattle EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flug báðar leiðir frá orlando til montreal EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér beint flug frá montreal til orlando EOS	O O O B-flight_stop O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ferðir báðar leiðir á milli montreal og orlando EOS	O O O O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flug báðar leiðir frá montreal til orlando EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ódýrustu flug aðra leiðina frá montreal til orlando EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ódýrasta flugið aðra leiðina frá orlando til montreal EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér ódýrasta flugið almennt farrými frá miami til new york EOS	O O O B-cost_relative O B-economy I-economy O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flug aðra leiðina frá milwaukee til orlando eftir 6 um kvöldið á miðvikudaginn EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O B-depart_date.day_name O	atis_flight
+BOS sýndu mér flugferðir frá indianapolis til memphis EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug báðar leiðir frá burbank til seattle EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug báðar leiðir frá orlando til montreal EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér beint flug frá montreal til orlando EOS	O O O B-flight_stop O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ferðir báðar leiðir á milli montreal og orlando EOS	O O O O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug báðar leiðir frá montreal til orlando EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrustu flug aðra leiðina frá montreal til orlando EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrasta flugið aðra leiðina frá orlando til montreal EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér ódýrasta flugið almennt farrými frá miami til new york EOS	O O O B-cost_relative O B-economy I-economy O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS kansas city til las vegas almennt farrými EOS	O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-economy I-economy O	atis_flight
 BOS kansas city til las vegas almennt farrými EOS	O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-economy I-economy O	atis_flight
 BOS hvaða flugfélag er hp EOS	O O O O B-airline_code O	atis_airline
@@ -580,32 +580,32 @@ BOS st. petersburg til detroit EOS	O B-fromloc.city_name I-fromloc.city_name O B
 BOS frá milwaukee til orlando aðra leið eftir 5 síðdegis á miðvikudaginn EOS	O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip B-depart_time.time_relative B-depart_time.time B-depart_time.period_of_day O B-depart_date.day_name O	atis_flight
 BOS og frá milwaukee til atlanta fyrir 10 um moguninn daglega EOS	O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time B-depart_time.period_mod I-depart_time.period_of_day B-flight_days O	atis_flight
 BOS hvaða flugfélag er yx EOS	O O O O B-airline_code O	atis_airline
-BOS sýnduu mér öll flug frá san jose til phoenix EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá san jose til phoenix EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá san jose til phoenix EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá san jose til phoenix EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flugfélag er hp EOS	O O O O B-airline_code O	atis_airline
-BOS sýnduu mér vegasamgöngur í boði í phoenix EOS	O O O O O O O B-city_name O	atis_ground_service
-BOS sýnduu mér flugferðir frá phoenix til fort worth EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér vegasamgöngur í fort worth EOS	O O O O O B-city_name I-city_name O	atis_ground_service
-BOS sýnduu mér flug frá fort worth til san jose EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferð með fyrsta farrými frá new york til miami báðar leiðir EOS	O O O O O B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
-BOS sýnduu mér flug fyrsta farrými frá new york til miami báðar leiðir EOS	O O O O B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
-BOS sýnduu mér allar flugferðir báðar leiðir frá new york til miami beint flug EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-flight_stop I-flight_stop O	atis_flight
-BOS sýnduu mér allar flugferðir báðar leiðir frá miami til new york beint flug EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-flight_stop I-flight_stop O	atis_flight
-BOS sýnduu mér beinar flugferðir frá indianapolis til memphis fyrir klukkan 10 um morguninn á einhverjum degi EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative O B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O O O O	atis_flight
+BOS sýndu mér vegasamgöngur í boði í phoenix EOS	O O O O O O O B-city_name O	atis_ground_service
+BOS sýndu mér flugferðir frá phoenix til fort worth EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér vegasamgöngur í fort worth EOS	O O O O O B-city_name I-city_name O	atis_ground_service
+BOS sýndu mér flug frá fort worth til san jose EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferð með fyrsta farrými frá new york til miami báðar leiðir EOS	O O O O O B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
+BOS sýndu mér flug fyrsta farrými frá new york til miami báðar leiðir EOS	O O O O B-class_type I-class_type O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
+BOS sýndu mér allar flugferðir báðar leiðir frá new york til miami beint flug EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-flight_stop I-flight_stop O	atis_flight
+BOS sýndu mér allar flugferðir báðar leiðir frá miami til new york beint flug EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-flight_stop I-flight_stop O	atis_flight
+BOS sýndu mér beinar flugferðir frá indianapolis til memphis fyrir klukkan 10 um morguninn á einhverjum degi EOS	O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative O B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O O O O	atis_flight
 BOS hvað merkir fargjaldskóði f EOS	O O O O B-fare_basis_code O	atis_abbreviation
-BOS sýnduu mér flug báðar leiðir frá burbank til tacoma EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug báðar leiðir frá burbank til tacoma EOS	O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvað merkir takmörkun ap58 EOS	O O O O B-restriction_code O	atis_abbreviation
 BOS hvað þýðir fargjaldskóði h EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS hvaða flugfélag er as EOS	O O O O B-airline_code O	atis_airline
 BOS hvaða flugfélag er as EOS	O O O O B-airline_code O	atis_airline
 BOS hvaða flugfélag er as EOS	O O O O B-airline_code O	atis_airline
 BOS hvaða flugfélagið er as eins og í sam EOS	O O O O O O O O O O	atis_airline
-BOS sýnduu mér beint flug frá st. petersburg til toronto EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér beint flug frá toronto til st. petersburg EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér beint flug og verð frá toronto til st. petersburg EOS	O O O B-flight_stop I-flight_stop O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight#atis_airfare
-BOS sýnduu mér beint flug frá toronto til st. petersburg EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flug á virkum degi frá milwaukee til orlando aðra leiðina EOS	O O O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
-BOS sýnduu mér flug á virkum degi frá milwaukee til orlando aðra leið EOS	O O O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
+BOS sýndu mér beint flug frá st. petersburg til toronto EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér beint flug frá toronto til st. petersburg EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér beint flug og verð frá toronto til st. petersburg EOS	O O O B-flight_stop I-flight_stop O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight#atis_airfare
+BOS sýndu mér beint flug frá toronto til st. petersburg EOS	O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flug á virkum degi frá milwaukee til orlando aðra leiðina EOS	O O O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
+BOS sýndu mér flug á virkum degi frá milwaukee til orlando aðra leið EOS	O O O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_flight
 BOS hvaða flugfélag er hp EOS	O O O O B-airline_code O	atis_airline
 BOS lista af flugi frá chicago til san diego EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS birtu lista af flugi frá chicago til san diego EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -726,36 +726,36 @@ BOS hversu mörg flug er northwest með sem fara frá dulles EOS	O O O O O B-air
 BOS hvaða borgir flýgur northwest til EOS	O O O O B-airline_name O O	atis_city
 BOS birtu lista af borgum sem northwest flýgur til EOS	O O O O O O B-airline_name O O O	atis_city
 BOS hvaða borgir flýgur northwest til EOS	O O O O B-airline_name O O	atis_city
-BOS ég værii til í tengiflug frá dallas til san francisco sem flýgur eftir klukkan 4 EOS	O O O O O B-connect O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_time.time_relative B-depart_time.time I-depart_time.time O	atis_flight
+BOS ég væri til í tengiflug frá dallas til san francisco sem flýgur eftir klukkan 4 EOS	O O O O O B-connect O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_time.time_relative B-depart_time.time I-depart_time.time O	atis_flight
 BOS vinsamlegast birtu allar flugferðir frá dallas til san francisco EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS segðu mér aftur morgunflugin með american airlines frá philadelphia til dallas EOS	O O O O B-depart_time.period_of_day O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS segðu mér hvaða flug fara frá philadelphia og fara til dallas EOS	O O O O O O O B-fromloc.city_name O O O B-toloc.city_name O	atis_flight
 BOS hvað er d9s EOS	O O O B-aircraft_code O	atis_abbreviation
 BOS hvaða tegund af flugvél er d9s EOS	O O O O O O B-aircraft_code O	atis_aircraft
 BOS hvað er d9s EOS	O O O B-aircraft_code O	atis_abbreviation
-BOS sýnduu mér flugvellina sem eru þjónustaðir af tower air EOS	O O O O O O O O B-airline_name I-airline_name O	atis_airport
-BOS sýnduu mér flugferðir fyrsta farrými og almennt farrými á milli jfk og orlando EOS	O O O O B-class_type I-class_type O B-class_type I-class_type O O B-fromloc.airport_code O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flug með fyrsta farrými og með almennt farrými frá kennedy flugvelli til miami EOS	O O O O O B-class_type I-class_type O O B-class_type I-class_type O B-fromloc.airport_name I-fromloc.airport_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir með fyrsta farrými og með almennu farrými frá jfk til miami EOS	O O O O O B-aircraft_code I-class_type O O B-class_type I-class_type O B-fromloc.airport_code O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugvellina sem eru þjónustaðir af tower air EOS	O O O O O O O O B-airline_name I-airline_name O	atis_airport
+BOS sýndu mér flugferðir fyrsta farrými og almennt farrými á milli jfk og orlando EOS	O O O O B-class_type I-class_type O B-class_type I-class_type O O B-fromloc.airport_code O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug með fyrsta farrými og með almennt farrými frá kennedy flugvelli til miami EOS	O O O O O B-class_type I-class_type O O B-class_type I-class_type O B-fromloc.airport_name I-fromloc.airport_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir með fyrsta farrými og með almennu farrými frá jfk til miami EOS	O O O O O B-aircraft_code I-class_type O O B-class_type I-class_type O B-fromloc.airport_code O B-toloc.city_name O	atis_flight
 BOS eru máltíðir einhvern tíman í boði hjá tower air EOS	O O B-meal O O O O O B-airline_name I-airline_name O	atis_meal
 BOS eru léttar veitingar í boði hjá tower air EOS	O O B-meal_description I-meal_description O O O B-airline_name I-airline_name O	atis_meal
-BOS sýnduu mér flugferðir með delta airlines frá jfk til miami EOS	O O O O O B-airline_name I-airline_name O B-fromloc.airport_code O B-toloc.city_name O	atis_flight
-BOS sýnduu mér delta airlines frá boston til salt lake EOS	O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flug með delta airlines frá boston til salt lake EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS sýnduu mér flug með delta airlines frá boston til salt lake city EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir með delta airlines frá jfk til miami EOS	O O O O O B-airline_name I-airline_name O B-fromloc.airport_code O B-toloc.city_name O	atis_flight
+BOS sýndu mér delta airlines frá boston til salt lake EOS	O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flug með delta airlines frá boston til salt lake EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér flug með delta airlines frá boston til salt lake city EOS	O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvað er fargjaldið fyrir flugferðir á milli boston og washington dc EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O	atis_airfare
 BOS hvað er ódýrasta fargjaldið frá boston til salt lake city EOS	O O O B-cost_relative O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_airfare
 BOS hvað eru lægstu fargjöld frá washington dc til salt lake city EOS	O O O B-cost_relative O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_airfare
 BOS hvað er lægsta fargjaldið frá bwi til salt lake city EOS	O O O B-cost_relative O O B-fromloc.airport_code O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_airfare
-BOS sýnduu mér kostnaðinn fyrir miða með fyrsta farrými frá detroit til las vegas og til baka EOS	O O O O O O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-round_trip I-round_trip O	atis_airfare
+BOS sýndu mér kostnaðinn fyrir miða með fyrsta farrými frá detroit til las vegas og til baka EOS	O O O O O O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-round_trip I-round_trip O	atis_airfare
 BOS hvað er fyrsta flugið til þess að kama frá boston til washington dc EOS	O O O B-flight_mod O O O O I-flight_mod O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O	atis_flight
 BOS hvað er fyrsta flugið til þess að koma á milli boston og washington dc EOS	O O O B-flight_mod O O O O I-flight_mod O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O	atis_flight
 BOS hvaða flug er fyrsta til þess að lenda á milli boston og washington dc EOS	O O O O B-flight_mod O O O I-flight_mod O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O	atis_flight
 BOS hvaða flug er fyrsta til þess að lenda frá houston til orlando EOS	O O O O B-flight_mod O O O I-flight_mod O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS hvaða flug er fyrsta til þess að koma frá houston til orlando EOS	O O O O B-flight_mod O O O I-flight_mod O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flug á milli houston og orlando EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flugferðir á milli houston og orlando EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér flug frá houston til orlando EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug á milli houston og orlando EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flugferðir á milli houston og orlando EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér flug frá houston til orlando EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS teldu upp öll flug sem fara frá denver á milli 8 og 9 um kvöldið EOS	O O O O O O O O B-fromloc.city_name O O B-depart_time.start_time O B-depart_time.end_time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS hvað er sætaframboðið í flugvél 733 EOS	O O O O O O B-aircraft_code O	atis_capacity
 BOS hvað er sætafjöldinn í 72s EOS	O O O O O B-aircraft_code O	atis_capacity
@@ -775,7 +775,7 @@ BOS hversu mörg fólk getur 757 tekið EOS	O O O O O B-aircraft_code O O	atis_c
 BOS hversu margir farþegar geta flogið með 757 EOS	O O O O O O O B-aircraft_code O	atis_capacity
 BOS birtu lista af öllum daglegum flugferðum sem koma til denver milli 8 og 9 um kvöldið EOS	O O O O O B-flight_days O O O O B-toloc.city_name O B-arrive_time.start_time O B-arrive_time.end_time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS birtu lista af öllum daglegum flugferðum sem koma til denver milli 8 og 9 um kvöldið EOS	O O O O O B-flight_days O O O O B-toloc.city_name O B-arrive_time.start_time O B-arrive_time.end_time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
-BOS sýnduu mér allar daglegar flugferðir sem koma til denver milli 8 og 9 um kvöldið EOS	O O O O B-flight_days O O O O B-toloc.city_name O B-arrive_time.start_time O B-arrive_time.end_time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
+BOS sýndu mér allar daglegar flugferðir sem koma til denver milli 8 og 9 um kvöldið EOS	O O O O B-flight_days O O O O B-toloc.city_name O B-arrive_time.start_time O B-arrive_time.end_time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS hver er sætafjöldinn hjá 757 EOS	O O O O O B-aircraft_code O	atis_capacity
 BOS segðu mér frá m80 flugvélum EOS	O O O O B-aircraft_code O O	atis_aircraft
 BOS segðu mér frá m80 flugvélum EOS	O O O O B-aircraft_code O O	atis_aircraft
@@ -795,7 +795,7 @@ BOS hvaða vegasamgöngur eru í boði frá la guardia flugvellinum í new york 
 BOS eru vegasamgöngur frá lga til new york city EOS	O O O O B-airport_code O B-city_name I-city_name I-city_name O	atis_ground_service
 BOS vinsamlegast teldu upp vegasamgöngurnar frá lga til new york city EOS	O O O O O O B-airport_code O B-city_name I-city_name I-city_name O	atis_ground_service
 BOS vinsamlegast teldu upp vegasamgöngur frá ewr til new york city EOS	O O O O O O B-airport_code O B-city_name I-city_name I-city_name O	atis_ground_service
-BOS sýnduu mér morgunflug frá memphis til new york city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
+BOS sýndu mér morgunflug frá memphis til new york city EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O	atis_flight
 BOS láttu mig fá flugferðinar frá new york city til nashville sem fara eftir klukkan 5 síðdegis á miðvikudaginn EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative O B-depart_time.time B-depart_time.period_of_day O B-depart_date.day_name O	atis_flight
 BOS segja mér frá vegasamgöngur í boði frá flugvellinum í nashville EOS	O O O O O O O O B-airport_name I-airport_name B-airport_name O	atis_ground_service
 BOS hvaða bein flug frá cincinnati til charlotte fara eftir hádegi og komu fyrir klukkan 7 um kvöldið EOS	O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time_relative B-depart_time.period_of_day O O B-arrive_time.time_relative O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
@@ -817,7 +817,7 @@ BOS ég myndi vilja flugi sem fer á sunnudaginn frá montreal quebec til san di
 BOS ég myndi vilja flug á þriðjudaginn sem fer frá san diego til indianapolis indiana og það leggur af stað eftir hádegi EOS	O O O O O O B-depart_date.day_name O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-toloc.state_name O O O O O B-depart_time.period_mod B-depart_time.period_of_day O	atis_flight
 BOS mig langar til að fara fimmtudagsmorgun frá indianapolis til toronto EOS	O O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS ég myndi vilja flug á föstudagsmorgun frá toronto til montreal EOS	O O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS ég værii til í flug frá cincinnati til burbank með american EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name O	atis_flight
+BOS ég væri til í flug frá cincinnati til burbank með american EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name O	atis_flight
 BOS hvaða tegund loftfars er notað fyrir flug með american sem fer 419 síðdegis EOS	O O O O O O O O O B-airline_name O O B-depart_time.time B-depart_time.period_of_day O	atis_aircraft
 BOS ég þarf á flugi sem fer frá kansas city til chicago flýgur næsta miðvikudag og til baka daginn eftir EOS	O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.date_relative B-depart_date.day_name O O O B-return_date.date_relative I-return_date.date_relative O	atis_flight
 BOS hvaða flug fara frá long beach til st. louis EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -876,9 +876,9 @@ BOS vinsamlegast finndu flug báðar leiðir frá los angeles til tacoma washing
 BOS eru einhver flug tíunda júní frá burbank í tacoma EOS	O O O O B-depart_date.day_number B-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS vinsamlegast finndu flug frá ontario til westchester sem stopar við í chicago þann sautjánda maí aðra leið með kvöldmat EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-stoploc.city_name O B-depart_date.day_number B-depart_date.month_name B-round_trip I-round_trip O B-meal_description O	atis_flight
 BOS langar að bóka flug frá burbank til milwaukee EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýnduu mér öll flug frá burbank til milwaukee EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér öll flug frá burbank til milwaukee EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS finndu fyrir mig allar flugferðir frá milwaukee til st. louis EOS	O O O O O O O B-fromloc.city_name O B-city_name I-city_name O	atis_flight
-BOS sýnduu mér núna allar flugferðir frá st. louis til burbank EOS	O O O O O O O B-city_name I-city_name O B-toloc.city_name O	atis_flight
+BOS sýndu mér núna allar flugferðir frá st. louis til burbank EOS	O O O O O O O B-city_name I-city_name O B-toloc.city_name O	atis_flight
 BOS er til flugfélag sem flýgur frá burbank til milwaukee milwaukee til st. louis og frá st. louis til burbank EOS	O O O O O O O B-toloc.city_name O B-toloc.city_name B-fromloc.city_name O B-toloc.city_name I-fromloc.city_name O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airline
 BOS finndu fyrir mig allar flugferðir báðar leiðir frá burbank til milwaukee sem stopa við í st. louis EOS	O O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
 BOS mig langar að bóka tværi flugferðir til westchester county EOS	O O O O O O O O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -889,5 +889,5 @@ BOS segðu mér frá öllum flugvöllum á new york svæðinu EOS	O O O O O O O 
 BOS vinsamlegast finndu öll flug frá cincinnati til hvaða flugvallar sem er á new york svæðinu sem lenda næsta laugardag fyrir klukkan 6 um kvöldið EOS	O O O O O O B-fromloc.city_name O O O O O O B-toloc.city_name I-toloc.city_name O O O O O B-arrive_time.time_relative O B-arrive_time.time B-arrive_time.period_of_day I-arrive_time.period_of_day O	atis_flight
 BOS finndu fyrir mig flugferð frá cincinnati til hvaða flugvallar sem er á new york city svæðinu EOS	O O O O O O B-fromloc.city_name O O O O O O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O	atis_flight
 BOS mig langar til að fljúga frá miami til chicago með american airlines EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name O	atis_flight
-BOS ég værii til í að bóka flug báðar leiðir frá kansas city til chicago EOS	O O O O O O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
+BOS ég væri til í að bóka flug báðar leiðir frá kansas city til chicago EOS	O O O O O O O O B-round_trip I-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS finndu fyrir mig flug sem flýgur frá memphis til tacoma EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
