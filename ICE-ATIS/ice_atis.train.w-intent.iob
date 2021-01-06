@@ -29,7 +29,7 @@ BOS sýndu mér allar flugferðir frá boston til pittsburgh á miðvikudaginn �
 BOS atlanta vegasamgöngur EOS	O B-city_name O O	atis_ground_service
 BOS ég þarf líka aðstoð frá dallas til boston koma fyrir hádegi EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-arrive_time.time_relative B-depart_time.period_of_day O	atis_flight
 BOS sýndu mér ódýrasta verð fyrir flug báðar leiðir frá baltimore til dallas EOS	O O O B-cost_relative O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
-BOS sýndu mér allar flugferðir frá new york til milwaukee með northwest airlines brottfar klukkan 720 um kvöldið EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name O O B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
+BOS sýndu mér allar flugferðir frá new york til milwaukee með northwest airlines brottför klukkan 720 um kvöldið EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name O O B-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS flug frá new york til miami EOS	O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS vinsamlegast finndu flug með delta frá philadelphia til san francisco og láttu mig fá flugnúmerið EOS	O O O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O O O	atis_flight
 BOS ég þarf flug frá dallas til san francisco EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
@@ -317,7 +317,7 @@ BOS sýndu mér beint flug frá milwaukee til orlando á miðvikudaginn EOS	O O 
 BOS sýndu mér allar flugferðir frá pittsburgh til baltimore á morgun sem bjóða máltíð um borð EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.today_relative I-depart_date.today_relative O O B-meal O O O	atis_flight
 BOS láttu mig fá flug með american airlines frá milwaukee til phoenix EOS	O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
 BOS sýndu mér allar flugferðir frá pittsburgh til san francisco EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
-BOS ég óska eftir að fljúga frá boston til washington vinsamlegast finndu flugfélag fyrir mig EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O O	atis_flight
+BOS ég óska ​​eftir að fljúga frá boston til washington vinsamlegast finndu flugfélag fyrir mig EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O O	atis_flight
 BOS vinsamlegast birtu lista af flugi frá dallas fort worth til dc baltimore tuttugasta og þriðja júlí EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O B-toloc.state_code B-toloc.city_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name O	atis_flight
 BOS hvaða flug frá memphis til tacoma stopa við í los angeles EOS	O O O O B-fromloc.city_name O B-toloc.city_name O O O B-stoploc.city_name I-stoploc.city_name O	atis_flight
 BOS sýndu mér flugferðir á þriðjudagsmorgun frá charlotte til baltimore EOS	O O O O O B-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O	atis_flight
@@ -502,8 +502,8 @@ BOS hvað er lægsta fargjaldið fyir ferð báðar leiðir frá dallas til atla
 BOS finndu fyrir mig fyrstu flugferðina frá boston til atlanta hvaða dag vikunnar sem er EOS	O O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name O O O O O O	atis_flight
 BOS sýndu allar flugferðir frá boston til baltimore þrítugasta og fyrsta júlí EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name O	atis_flight
 BOS almenn fargjöld new york til miami báðar leiðir EOS	O B-economy O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O	atis_airfare
-BOS ég þarf að fljúga frá boston til denver til san francisco og til bakaaftan EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-toloc.city_name I-toloc.city_name O O O O	atis_flight
-BOS ég óska eftir að bóka flug frá pittsburgh til atlanta almenn fargjöld með afslætti EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-class_type O O O O	atis_flight
+BOS ég þarf að fljúga frá boston til denver til san francisco og til baka EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name O B-toloc.city_name I-toloc.city_name O O O O	atis_flight
+BOS ég óska ​​eftir að bóka flug frá pittsburgh til atlanta almenn fargjöld með afslætti EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-class_type O O O O	atis_flight
 BOS sýndu mér flug til dallas frá san francisco og atlanta og pittsburgh EOS	O O O O O B-toloc.city_name O B-fromloc.city_name I-fromloc.city_name O B-fromloc.city_name O B-fromloc.city_name O	atis_flight
 BOS segðu mér fjarlægðina frá orlando flugvelli til borgarinnar EOS	O O O O O B-fromloc.airport_name I-fromloc.airport_name O O O	atis_distance
 BOS hæ ég þarf að fá flug frá memphis til salt lake city sem fer fyrir klukkan 10 um morguninn EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O B-depart_date.day_name B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
@@ -1027,7 +1027,7 @@ BOS láttu mig fá flug frá new york til las vegas og memphis til las vegas á 
 BOS hvað merkir ea EOS	O O O B-airline_code O	atis_abbreviation
 BOS sýndu mér flug með southwest airlines frá san diego til san francisco EOS	O O O O O B-airline_name I-airline_name O B-toloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS hvað eru fargjöldin fyrir fyrsta farrými báðar leiðir frá dallas til denver EOS	O O O O O B-class_type I-class_type B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
-BOS sýndu mér brotfarstíma fyrir flug almennt farrými á milli boston og baltimore á miðvikudag EOS	O O O B-flight_time O O B-class_type O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight_time
+BOS sýndu mér brottfarartíma fyrir flug almennt farrými á milli boston og baltimore á miðvikudag EOS	O O O B-flight_time O O B-class_type O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight_time
 BOS hvaða flug fara frá pittsburgh og fara til denver og fer eftir klukkan 6 um kvöldið EOS	O O O O O B-fromloc.city_name O O O B-toloc.city_name O O B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS sýndu mér flug frá denver til westchester county EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS sýndu mér fyrsta flugið á miðvikudaginn frá baltimore til newark EOS	O O O B-flight_mod O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O	atis_flight
@@ -2809,7 +2809,7 @@ BOS sýndu mér beint flug frá dallas til houston EOS	O O O B-flight_stop O O B
 BOS hvað er ódýrasta flugið með fyrsta farrými milli boston og san francisco EOS	O O O B-cost_relative O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS er flug á milli philadelphia og denver sem fer frá philadelphia um klukkan 2 síðdegis EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-fromloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_time.period_of_day O	atis_flight
 BOS listi af flugi frá dallas til baltimore EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
-BOS sýndu mér verð og brottfarstíma frá san francisco til atlanta EOS	O O O O O B-flight_time O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare#atis_flight_time
+BOS sýndu mér verð og brottfarartíma frá san francisco til atlanta EOS	O O O O O B-flight_time O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O	atis_airfare#atis_flight_time
 BOS sýndu mér flug frá denver til atlanta á föstudaginn EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O	atis_flight
 BOS hvað merkir fargjaldskóði y EOS	O O O O B-fare_basis_code O	atis_abbreviation
 BOS mig langar til að sjá flug frá denver til philadelphia EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_flight
@@ -4566,7 +4566,7 @@ BOS hversu marga farþega getur boeing 737 flogið með EOS	O O O O O O B-aircra
 BOS ég þarf flug frá philadelphia til dallas næsta miðvikudag um morguninn EOS	O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.date_relative B-depart_date.day_name B-depart_time.period_of_day I-depart_time.period_of_day O	atis_flight
 BOS sýndu mér flugferðir frá love field til allara annara flugvalla EOS	O O O O O B-fromloc.airport_name I-fromloc.airport_name O O O O O	atis_flight
 BOS hvaða flugfélag stendur skammstöfun ea fyrir EOS	O O O O O B-airline_code O O	atis_airline
-BOS sýndu mér brottfarir og komur til atlanta hjá american airlines EOS	O O O O O O O B-city_name O B-airline_name I-airline_name O	atis_flight
+BOS sýndu mér brottförir og komur til atlanta hjá american airlines EOS	O O O O O O O B-city_name O B-airline_name I-airline_name O	atis_flight
 BOS hvaða flugferð frá boston til baltimore er ódýrast að fljúga EOS	O O O O B-fromloc.city_name O B-toloc.city_name O B-cost_relative O O O	atis_flight
 BOS frá washington dc til philadelphia brottför síðdegis EOS	O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O B-depart_time.period_of_day O	atis_flight
 BOS sýndu mér flug frá san francisco til denver eftir klukkan 4 síðdegis EOS	O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-return_time.period_mod I-depart_time.time B-depart_time.period_of_day O	atis_flight
@@ -4584,7 +4584,7 @@ BOS hvað er ódýrasta flugið frá pittsburgh til san francisco á föstudagin
 BOS vinsamlegast sýndu mér öll flugfargjöld frá denver til oakland EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name O	atis_airfare
 BOS hvaða flug eru á milli washington og san francisco EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O	atis_flight
 BOS með hvaða flugvél mun ég fljúga með ef ég tek flug með fyrsta farrými með american airlines frá philadelphia til dallas EOS	O O O O O O O O O O O O O B-class_type I-class_type O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O	atis_aircraft
-BOS getur þú sagt mér brottfaratímann frá atlanta til boston síðdegis EOS	O O O O O B-flight_time O B-fromloc.city_name O B-toloc.city_name B-depart_time.period_of_day O	atis_flight_time
+BOS getur þú sagt mér brottfarartímann frá atlanta til boston síðdegis EOS	O O O O O B-flight_time O B-fromloc.city_name O B-toloc.city_name B-depart_time.period_of_day O	atis_flight_time
 BOS mig langar til að bóka ferð til baltimore fyrsta janúar EOS	O O O O O O O O B-toloc.city_name B-depart_date.day_number B-depart_date.month_name O	atis_flight
 BOS hvaða vegasamgöngur eru í boði í fort worth í texas EOS	O O O O O O O B-city_name I-city_name O B-state_name O	atis_ground_service
 BOS hvað er fyrsta flugið sem fer frá denver of fer til boston EOS	O O O B-flight_mod O O O O B-fromloc.city_name O O O B-toloc.city_name O	atis_flight
